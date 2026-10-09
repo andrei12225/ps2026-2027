@@ -2,9 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 A = 1
+
+# f = frecventa, x = timpul
 s1 = lambda x, f: A * np.sin(2 * np.pi * f * x)
 sawtooth = lambda x, f: np.mod(f * x, 1)
 square = lambda x, f: np.sign(s1(x, f))
+
 axa1 = np.linspace(0, 0.2, 1600)
 axa2 = np.linspace(0, 3, 2000)
 
@@ -20,11 +23,13 @@ plt.savefig("ex2/ex2b.pdf")
 plt.show()
 
 plt.figure()
+plt.xlim(right=0.05)
 plt.plot(axa1, sawtooth(axa1, 240))
 plt.savefig("ex2/ex2c.pdf")
 plt.show()
 
 plt.figure()
+plt.xlim(right=0.05)
 plt.plot(axa1, square(axa1, 300))
 plt.savefig("ex2/ex2d.pdf")
 plt.show()

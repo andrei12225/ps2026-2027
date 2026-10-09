@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# t = timpul
 x = lambda t: np.cos(520 * np.pi * t + np.pi / 3)
 y = lambda t: np.cos(280 * np.pi * t - np.pi / 3)
 z = lambda t: np.cos(120 * np.pi * t + np.pi / 3)
