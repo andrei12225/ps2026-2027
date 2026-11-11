@@ -1,0 +1,1 @@
+# Nu am putut distinge diferente intre vocale :(

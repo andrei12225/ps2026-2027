@@ -1,0 +1,1 @@
+# Frecventa trebuie sa fie > 400Hz
