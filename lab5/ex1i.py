@@ -6,7 +6,7 @@ N = len(x)
 Fs = 1 / 3600
 
 # Alegerea frecventei de taiere:
-# Din ex1f, componentele dominante sunt trendul (frecvente foarte mici),
+# Din ex1f, componentele dominante sunt trendul,
 # ciclul saptamanal si ciclul zilnic (1 / 86400 Hz).
 # Pastram tot ce are perioada >= 12 ore (fc = 1 / (12 * 3600) Hz)
 # Ce e peste fc este zgomot
